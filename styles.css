@@ -1,0 +1,44 @@
+/* This is our css file. Which contain the styling of our pages. */
+/* In CSS we write only those elements which is need to be stilled.
+The basic syntax of css is   selector {property : value;} */
+
+/* *******TAG SELECTOR******** */
+
+body {
+  background-color: #E1CCEC;
+}
+
+hr {
+  border-style: dotted none none;
+  border-top-color: grey;
+  border-top-width: thick;
+  width: 6%;
+}
+
+h1 {
+  color: #7D5A5A;
+}
+
+h3 {
+  color: #815B5B;
+}
+
+img:hover {
+  background-color: purple; /* This hover pseudo class can change the color when the mouse points to the img.*/
+}
+
+/* **********CLASS SELECTOR******** */
+/* For using class selector there should always be . before class name.
+We can use class how many time we want with a similer name.
+You can also add two classes in each class. */
+.example{
+  text-align: center;
+}
+
+/* **********ID SELECTOR********** */
+/* We can only use one id in one place only.
+You can't have more than on id. */
+/*
+#heading{
+  color: red;
+} */
